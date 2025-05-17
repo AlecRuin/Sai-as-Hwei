@@ -217,7 +217,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base.skl"
             simpleSkin: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base.skn"
-            texture: string = "ASSETS/Characters/Hwei/Skins/Base/Mat_Body.dds"
+            texture: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base_TX_CM.tex"
             skinScale: f32 = 1.14999998
             selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
@@ -225,19 +225,19 @@ entries: map[hash,embed] = {
             submeshRenderOrder: string = "Hair Body PaletteA"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base_Weapon_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base_Weapon_TX_CM.tex"
                     submesh: string = "PaletteA"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base_Weapon_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base_Weapon_TX_CM.tex"
                     submesh: string = "Brush"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Mat_Body.dds"
+                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Mat_Body.tex"
                     submesh: string = "Mat_Body"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Mat_Eyes.dds"
+                    texture: string = "ASSETS/Characters/Hwei/Skins/Base/Mat_Eyes.tex"
                     submesh: string = "Mat_Eyes"
                 }
             }
@@ -643,7 +643,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 100, 10 }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Skin01/Particles/Naafiri_Skin01_MissileHead01.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Skin01/Particles/Naafiri_Skin01_MissileHead01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
@@ -890,7 +890,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -1066,7 +1066,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -1690,7 +1690,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2021,7 +2021,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2119,7 +2119,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -2900,7 +2900,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -3824,7 +3824,6 @@ entries: map[hash,embed] = {
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, 0 }
                 }
@@ -3990,7 +3989,6 @@ entries: map[hash,embed] = {
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, 0 }
                 }
@@ -4183,7 +4181,6 @@ entries: map[hash,embed] = {
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, 0 }
                 }
@@ -4335,7 +4332,6 @@ entries: map[hash,embed] = {
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, 0 }
                 }
@@ -4519,7 +4515,6 @@ entries: map[hash,embed] = {
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, 0 }
                 }
@@ -4685,7 +4680,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4949,7 +4944,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5028,7 +5023,6 @@ entries: map[hash,embed] = {
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, 0 }
                 }
@@ -5183,7 +5177,6 @@ entries: map[hash,embed] = {
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, 0 }
                 }
@@ -5686,7 +5679,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6380,7 +6373,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7640,7 +7633,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8583,7 +8576,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9380,6 +9373,67 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "ring"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.137254909, 0.137254909, 0.141176477, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 3
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                colorRenderFlags: u8 = 1
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, -90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 325, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Udyr/Skins/Skin03/Particles/Lux_Skin29_E_Mis_AlphaCircleGradient_02.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.150000006
                 }
                 particleLinger: option[f32] = {
@@ -9446,7 +9500,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9523,7 +9577,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Tile01.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Tile01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -12108,6 +12162,64 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.100000001
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "ring"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.505882382, 0.501960814, 0.494117647, 0 }
+                            { 0.505882382, 0.494117647, 0.494117647, 1 }
+                            { 0.505882382, 0.498039216, 0.494117647, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 3
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                colorRenderFlags: u8 = 1
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, -90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 250, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Udyr/Skins/Skin03/Particles/Lux_Skin29_E_Mis_AlphaCircleGradient_02.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 2
                 }
                 particleLinger: option[f32] = {
@@ -13165,7 +13277,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13365,7 +13477,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13849,7 +13961,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14036,7 +14148,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14257,7 +14369,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14951,7 +15063,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -17730,7 +17842,6 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
@@ -17894,7 +18005,6 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
@@ -18065,7 +18175,6 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
@@ -18645,7 +18754,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -20069,7 +20178,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -20264,7 +20373,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -20458,7 +20567,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -20974,7 +21083,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -22070,7 +22179,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -22148,7 +22257,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22506,7 +22615,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -23905,6 +24014,67 @@ entries: map[hash,embed] = {
                 }
             }
             VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "ring"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.694117665, 0.690196097, 0.686274529, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 3
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                colorRenderFlags: u8 = 1
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, -90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Udyr/Skins/Skin03/Particles/Lux_Skin29_E_Mis_AlphaCircleGradient_02.dds"
+            }
+            VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
                 rate: embed = ValueFloat {
                     constantValue: f32 = 10
@@ -25084,7 +25254,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -25557,6 +25727,53 @@ entries: map[hash,embed] = {
                     paletteCount: i32 = 4
                 }
                 texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.100000001
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "ring1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.505882382, 0.498039216, 0.494117647, 1 }
+                }
+                pass: i16 = 8001
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                colorRenderFlags: u8 = 1
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, -90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 320, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Udyr/Skins/Skin03/Particles/Lux_Skin29_E_Mis_AlphaCircleGradient_02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -26053,7 +26270,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26506,7 +26723,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27921,7 +28138,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -28060,6 +28277,124 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Characters/Udyr/Skins/Base/Particles/Udyr_Base_VGU_GlowMask_Thicc.dds"
+                uvRotation: embed = ValueFloat {
+                    constantValue: f32 = 90
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.699999988, 0.699999988 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.5 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.150000006
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.699999988
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                rateByVelocityFunction: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.0199999996, 0 }
+                }
+                MaximumRateByVelocity: option[f32] = {
+                    15
+                }
+                emitterName: string = "Blend_FLoor2"
+                Linger: pointer = VfxLingerDefinitionData {
+                    SeparateLingerColor: embed = ValueColor {
+                        dynamics: pointer = VfxAnimatedColorVariableData {
+                            times: list[f32] = {
+                                0
+                                0.5
+                                1
+                            }
+                            values: list[vec4] = {
+                                { 1, 1, 1, 0 }
+                                { 1, 1, 1, 1 }
+                                { 1, 1, 1, 0 }
+                            }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.694117665, 0.690196097, 0.686274529, 0.5 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0.340001523 }
+                            { 1, 1, 1, 0.680003047 }
+                            { 0.286274523, 0.278431386, 0.278431386, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 36
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 180, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 20, 640, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 20, 640, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.800000012
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1, 0, 0 }
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Udyr/Skins/Skin03/Particles/Lux_Skin29_E_Mis_AlphaCircleGradient_02.dds"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -29762,7 +30097,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -30095,7 +30430,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -30193,7 +30528,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -30294,7 +30629,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 80
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.300000012
+                    constantValue: f32 = 0.349999994
                 }
                 particleLinger: option[f32] = {
                     1
@@ -30323,14 +30658,30 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
+                            0.100000001
                             0.5
                             1
                         }
                         values: list[vec4] = {
+                            { 1, 1, 1, 0 }
                             { 1, 1, 1, 1 }
                             { 0.768627465, 0.760784328, 0.760784328, 1 }
                             { 0, 0, 0, 0 }
@@ -30381,7 +30732,7 @@ entries: map[hash,embed] = {
                     }
                     paletteCount: i32 = 4
                 }
-                texDiv: vec2 = { 2.5, 1 }
+                texDiv: vec2 = { 2, 1 }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30511,7 +30862,7 @@ entries: map[hash,embed] = {
                 }
             }
             VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.100000001
+                timeBeforeFirstEmission: f32 = 0.0500000007
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -30551,7 +30902,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                pass: i16 = 75
+                pass: i16 = 318
                 isRotationEnabled: flag = true
                 TextureFlipU: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -30582,7 +30933,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 80
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.400000006
+                    constantValue: f32 = 0.5
                 }
                 particleLinger: option[f32] = {
                     0.349999994
@@ -30599,7 +30950,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 125, 0 }
+                    constantValue: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
@@ -30612,14 +30963,30 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
+                            0.100000001
                             0.5
                             1
                         }
                         values: list[vec4] = {
+                            { 1, 1, 1, 0 }
                             { 1, 1, 1, 1 }
                             { 1, 1, 1, 1 }
                             { 0, 0, 0, 0 }
@@ -30627,6 +30994,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 pass: i16 = 307
+                alphaRef: u8 = 0
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionDriveCurve: embed = ValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -31021,7 +31389,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 80
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.400000006
+                    constantValue: f32 = 0.5
                 }
                 particleLinger: option[f32] = {
                     0.349999994
@@ -31038,7 +31406,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 125, 0 }
+                    constantValue: vec3 = { 0, 150, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
@@ -31051,16 +31419,33 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.993240237, 0.931609035, 0.716029584, 0.501960814 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
                             0.5
                             1
                         }
                         values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
+                            { 0.854901969, 0.854901969, 0.854901969, 0 }
+                            { 0.854901969, 0.854901969, 0.854901969, 0.501960814 }
+                            { 0.854901969, 0.854901969, 0.854901969, 0.501960814 }
                             { 0, 0, 0, 0 }
                         }
                     }
@@ -31090,17 +31475,14 @@ entries: map[hash,embed] = {
                 particleIsLocalOrientation: flag = true
                 ParticlesShareRandomValue: flag = true
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 25, 1, 1 }
+                    constantValue: vec3 = { 30, 1, 1 }
                 }
                 texture: string = "ASSETS/Characters/Hwei/Skins/Base/Particles/Hwei_Base_PaintStrokeDiffuse.tex"
                 texDiv: vec2 = { 3, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Hwei/Skins/Base/Particles/Hwei_Base_Foundation_GoldFoilMult.tex"
-                    uvScaleMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 4, 4 }
-                    }
                     birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 3 }
+                        constantValue: vec2 = { 1, 0 }
                     }
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.400000006 }
@@ -31197,7 +31579,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 85, 0 }
+                    constantValue: vec3 = { 0, 50, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
@@ -31224,7 +31606,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                pass: i16 = 450
+                pass: i16 = 320
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionDriveCurve: embed = ValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -31318,7 +31700,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 85, 0 }
+                    constantValue: vec3 = { 0, 50, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
@@ -31332,7 +31714,19 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.729411781, 0.729411781, 0.725490212, 1 }
+                    constantValue: vec4 = { 1, 0.847058833, 0.454901963, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.729411781, 0.729411781, 0.725490212, 0 }
+                            { 0.729411781, 0.729411781, 0.725490212, 1 }
+                            { 0.729411781, 0.729411781, 0.725490212, 1 }
+                        }
+                    }
                 }
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -31348,7 +31742,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                pass: i16 = 451
+                pass: i16 = 321
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionDriveCurve: embed = ValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -31580,7 +31974,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Udyr/Skins/Base/Particles/Udyr_Base_VGU_Awaken_Glow.dds"
             }
             VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.100000001
+                timeBeforeFirstEmission: f32 = 0.0500000007
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31620,7 +32014,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                pass: i16 = 85
+                pass: i16 = 319
                 isRotationEnabled: flag = true
                 TextureFlipU: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -33264,7 +33658,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -33569,7 +33963,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -34254,7 +34648,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36066,7 +36460,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36255,7 +36649,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37071,7 +37465,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37470,7 +37864,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37845,7 +38239,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38161,7 +38555,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38352,7 +38746,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38541,7 +38935,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39502,7 +39896,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39686,7 +40080,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -40182,7 +40576,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -40676,7 +41070,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -41834,7 +42228,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -42314,7 +42708,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -45956,7 +46350,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -46748,7 +47142,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -46847,7 +47241,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -47129,7 +47523,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47235,7 +47629,7 @@ entries: map[hash,embed] = {
         assetRemappingTable: list[embed] = {
             VfxAssetRemap {
                 type: u32 = 1
-                oldAsset: hash = 0xacb30df5
+                oldAsset: hash = 0xe80d270d
                 newAsset: string = "ASSETS/Characters/Hwei/Skins/Base/Particles/common_Smoke_Clouds_2x2_colorblind.tex"
             }
         }
@@ -47316,7 +47710,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47567,7 +47961,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48024,7 +48418,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49957,7 +50351,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50774,7 +51168,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50962,7 +51356,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Rammus/skins/Skin17/Particles/Rammus_Skin17_R_Circle.dds"
+                texture: string = "ASSETS/Characters/Rammus/skins/Skin17/Particles/Rammus_Skin17_R_Circle.tex"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -51484,7 +51878,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Riven/Skins/Skin23/Particles/Riven_Skin23_Z_Trail03_EROSION.dds"
+                    erosionMapName: string = "ASSETS/Characters/Riven/Skins/Skin23/Particles/Riven_Skin23_Z_Trail03_EROSION.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -52565,7 +52959,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Riven/Skins/Skin23/Particles/Riven_Skin23_Z_Trail03_EROSION.dds"
+                    erosionMapName: string = "ASSETS/Characters/Riven/Skins/Skin23/Particles/Riven_Skin23_Z_Trail03_EROSION.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55313,7 +55707,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55412,7 +55806,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
@@ -56013,7 +56407,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -56611,7 +57005,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -57598,7 +57992,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -57811,7 +58205,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -57998,7 +58392,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58864,7 +59258,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -59072,6 +59466,67 @@ entries: map[hash,embed] = {
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "ring"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.500007629 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.505882382, 0.501960814, 0.494117647, 0 }
+                            { 0.505882382, 0.498039216, 0.494117647, 1 }
+                            { 0.505882382, 0.498039216, 0.494117647, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 600
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                colorRenderFlags: u8 = 1
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, -90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Udyr/Skins/Skin03/Particles/Lux_Skin29_E_Mis_AlphaCircleGradient_02.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60335,7 +60790,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60413,7 +60868,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -61608,7 +62063,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61809,7 +62264,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -62508,7 +62963,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62570,7 +63025,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -62660,7 +63115,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Hwei/Skins/Base/Particles/Hwei_Base_Gradient02.tex"
@@ -63456,7 +63911,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_Glow01.Naafiri_Midscope.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65028,7 +65483,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -65400,7 +65855,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -65648,7 +66103,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67548,7 +68003,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67721,7 +68176,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67856,7 +68311,6 @@ entries: map[hash,embed] = {
                 colorLookUpScales: vec2 = { 1, 0 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
                 TextureFlipU: flag = true
@@ -67978,7 +68432,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -68157,7 +68611,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -68503,7 +68957,6 @@ entries: map[hash,embed] = {
                 colorLookUpScales: vec2 = { 1, 0 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
                 TextureFlipU: flag = true
@@ -68977,7 +69430,6 @@ entries: map[hash,embed] = {
                 colorLookUpScales: vec2 = { 1, 0 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
                 TextureFlipU: flag = true
@@ -70780,7 +71232,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -71773,7 +72225,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -72992,7 +73444,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Rammus/skins/Skin17/Particles/Rammus_Skin17_R_Circle.dds"
+                texture: string = "ASSETS/Characters/Rammus/skins/Skin17/Particles/Rammus_Skin17_R_Circle.tex"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -74069,6 +74521,67 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.100000001
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "ring"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.505882382, 0.501960814, 0.494117647, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 3
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                colorRenderFlags: u8 = 1
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, -90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 275, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Udyr/Skins/Skin03/Particles/Lux_Skin29_E_Mis_AlphaCircleGradient_02.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 5.19999981
                 }
                 particleLinger: option[f32] = {
@@ -74415,7 +74928,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -74618,7 +75131,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75515,7 +76028,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75710,7 +76223,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75904,7 +76417,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -76350,7 +76863,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -78560,7 +79073,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -78659,7 +79172,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.dds"
+                texture: string = "ASSETS/Characters/Naafiri/Skins/Base/Particles/Naafiri_Base_Foundation_ImpactSpike_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
@@ -78757,7 +79270,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base_Weapon_TX_CM.dds"
+                texturePath: string = "ASSETS/Characters/Hwei/Skins/Base/Hwei_Base_Weapon_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Scroll_Texture"
